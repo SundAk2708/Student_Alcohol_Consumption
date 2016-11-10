@@ -3,9 +3,6 @@ student.mat <- read.csv("C:/KB/Study/Kaggle data/student-mat.csv")
 View(student.mat) 
 math<- student.mat
 
-
-detach("package:doBy", unload=TRUE)
-
 #Libraries and Packages
 library("doBy", lib.loc="~/R/win-library/3.2")
 library(doBy)
